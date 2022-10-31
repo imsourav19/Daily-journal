@@ -22,23 +22,13 @@ npm
 ```bash
   npm install
 ```
-yarn
-
-```bash
-  yarn install
-```
 
 Start the server
 
-npm
+node
 
 ```bash
-  npm run start
-```
-yarn
-
-```bash
-  yarn run dev
+  node app.js
 ```
 
 It will start the development server at `localhost:3000`
