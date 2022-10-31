@@ -1,5 +1,5 @@
 # Daily-journal
-A journal to save everyday activities
+A journal to write in everyday activities
 
 ## Run on your Local Machine
 
