@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+
+<h1>Home</h1>
+<p style="padding-bottom: 20px;" class="home-info"> <%= HomeInfo %> </p>
+<a class="button" href="/compose">   <b>COMPOSE</b>   </a>
+<% newJournalItems.forEach((e)=>{ %>
+    <div>
+        <h2> <%= e.title %> </h2>
+        <p style="padding-bottom: 20px;"> <%= e.desc.substring(0,100)+"..." %>
+           <a href="/posts/<%= e.title %> ">Read More</a>
+        </p>
+    </div>
+<% }) %>
+
+<%- include("partials/footer") -%>

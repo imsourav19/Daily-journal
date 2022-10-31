@@ -1,0 +1,23 @@
+<%- include("partials/header")-%>
+
+    <h1>Compose</h1>
+
+    <form action="/compose" method="post">
+
+        <div class="mb-3">
+            <label for="" class="form-label"><h3>Title</h3></label><br>
+            <textarea style="resize: none;" name="PostTitle" class="form-control" id="" rows="1"></textarea>
+        </div>
+            
+       
+        <div class="mb-3">
+            <label for="" class="form-label"><h3>Description</h3></label>
+            <textarea style="resize: none;" name="PostDesc" class="form-control" id="" rows="3"></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-lg btn-primary">Publish</button>
+    </form>
+
+    
+
+<%- include("partials/footer")-%>
